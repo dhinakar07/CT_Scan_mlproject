@@ -177,7 +177,7 @@ This application is built for **educational and research purposes only**. It is 
 
 **Dhinakar Yalla**
 Master's in Data Science — University at Buffalo, SUNY
-📧 dhinakaryalla07@gmail.com
+📧 yalladhinakar@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/dhinakaryalla/)
 🐙 [GitHub](https://github.com/dhinakar07)
 
