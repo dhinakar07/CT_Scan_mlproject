@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configure Google Gemini API
-GEMINI_API_KEY = "AIzaSyD2o8aUh1HXjVL1U_wm4NoR5WBpy2U_knw"  # Replace with your actual Gemini API key
+GEMINI_API_KEY = ""  # Replace with your actual Gemini API key
 if not GEMINI_API_KEY:
     st.error("Google Gemini API key is missing.")
     raise ValueError("GEMINI_API_KEY is required")
@@ -219,8 +219,8 @@ def create_pdf_report(name, age, sex, email, diagnosis, confidence, llm_report, 
 # Send email
 def send_email(to_email, pdf_path, name):
     logger.info("Sending email...")
-    from_email = "dhinakaryalla@gmail.com"
-    password = "phmf tqkx pmpe amul"
+    from_email = "yourmaila@gmail.com"
+    password = "XXXXXXXXX"
     msg = MIMEMultipart()
     msg['From'] = from_email
     msg['To'] = to_email
